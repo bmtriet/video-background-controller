@@ -1,0 +1,29 @@
+node_modules/
+dist/
+data/*.db*
+media/**/*
+!media/**/.gitkeep
+*.log
+.local/
+
+# Local artifacts and runtime data
+output/
+.DS_Store
+data/*
+!data/.gitkeep
+.env
+.env.*
+!.env.example
+
+# Exclude PNG images and videos everywhere (case insensitive)
+*.[pP][nN][gG]
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[wW][eE][bB][mM]
+*.[mM][kK][vV]
+*.[aA][vV][iI]
+*.[mM]4[vV]
+*.[mM][pP][eE][gG]
+*.[mM][pP][gG]
+*.[wW][mM][vV]
+*.[fF][lL][vV]
